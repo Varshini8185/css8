@@ -1,0 +1,53 @@
+.main{
+    padding: 20px;
+    border: 3px solid;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+    background-color: bisque;
+    overflow:scroll;
+    box-sizing: border-box;
+}
+  ::-webkit-scrollbar{
+    display: none;
+  }  
+#div1{
+    border: 3px solid;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+#div1 div{
+    border: 3px solid;
+    padding: 20px;
+}
+#div2{
+    border: 3px solid;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#div2 div{
+    border: 3px solid;
+    padding: 20px  
+} 
+#div3{
+    border: 3px solid;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+#div3 div{
+    border: 3px solid;
+    padding: 20px
+}
+
+
